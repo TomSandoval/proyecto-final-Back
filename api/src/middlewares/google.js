@@ -9,7 +9,7 @@ passport.use(
     {
       clientID: process.env.GOOGLE_CLIENT_ID,
       clientSecret: process.env.GOOGLE_CLIENT_SECRET,
-      callbackURL: "https://proyecto-final-back-production-dfbd.up.railway.app/auth/google/redirect",
+      callbackURL: "https://tuki-server.onrender.com/auth/google/redirect",
     },
     async function (accessToken, refreshToken, profile, done) {
       try {
